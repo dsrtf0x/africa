@@ -1,1 +1,79 @@
-
+body{
+	font-family: 'Karla', sans-serif;
+	font-size: 15px;
+}
+*{
+	box-sizing: border-box;
+}
+.firstBox, .secondBox, .thirdBox{
+	background-color: #d78fa7;
+	padding: 35px 10px 10px 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.insidef{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 5px;
+	background-color: #5442a2;
+	color: white;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+.insides{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 5px;
+	background-color: #41b841;
+	color: white;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+.insidet{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 5px;
+	background-color: #c5cd40;
+	color: white;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+h1{
+	text-align: center;
+	font-size: 1.75em;
+}
+@media (min-width: 992px){
+	.firstBox, .secondBox, .thirdBox{
+		width: 31.33%;
+		margin: 1%;
+		float: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.firstBox, .secondBox{
+		width: 48%;
+		margin: 1%;
+		float: left;
+	}
+	.thirdBox{
+		width: 98%;
+		margin: 1%;
+		float: left;
+	}
+}
+@media (max-width: 767px){
+	.firstBox, .secondBox, .thirdBox{
+		width: 98%;
+		margin: 1%;
+		float: left;
+	}
+}
