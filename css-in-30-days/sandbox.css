@@ -1,0 +1,331 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+
+
+.mario-block {
+	display: inline-block;
+	position: relative;
+	margin: 80px auto;
+	width: 16em;
+	height: 16em;
+}
+
+#wahoo {
+	outline: none;
+}
+
+#wahoo:active + .mario-block {
+	-webkit-animation: wahooMario 0.8s ease-in-out 1;
+	-o-animation: wahooMario 0.8s ease-in-out 1;
+	animation: wahooMario 0.8s ease-in-out 1;
+}
+
+@keyframes wahooMario {
+	0% {
+		left: 0;
+		bottom: 0;
+		transform: rotate(0);
+	}
+	30% {
+		left: 200px;
+		bottom: 200px;
+		transform: rotate(-25deg);
+	}
+	80% {
+		left: 400px;
+		bottom: 0;
+		transform: rotate(0);
+	}
+	100% {
+		left: 0;
+		bottom: 0;
+
+	}
+}
+.button-theme {
+	margin: 20px 50px;
+}
+
+.mario {
+	display: block;
+	width: 1em;
+	height: 1em;
+	background-color: #ffcccc;
+	box-shadow: 0em 0em #ffcccc,
+				1em 0em #ffcccc,
+				2em 0em #ffcccc,
+				3em 0em #ffcccc,
+				4em 0em #ffcccc,
+				5em 0em #ffcccc,
+				6em 0em #ffcccc,
+				7em 0em #ffcccc,
+				8em 0em #ffcccc,
+				9em 0em #ffcccc,
+				10em 0em #ffcccc,
+				11em 0em #ffcccc,
+				12em 0em #ffcccc,
+				13em 0em #ffcccc,
+				14em 0em #ffcccc,
+				15em 0em #ffcccc,
+
+				0em 1em #ffcccc,
+				1em 1em black,
+				2em 1em #ffcccc,
+				3em 1em #ffcccc,
+				4em 1em #ffcccc,
+				5em 1em #ffcccc,
+				6em 1em #ffcccc,
+				7em 1em black,
+				8em 1em black,
+				9em 1em black,
+				10em 1em black,
+				11em 1em black,
+				12em 1em black,
+				13em 1em black,
+				14em 1em black,
+				15em 1em #ffcccc,
+
+				0em 2em #ffcccc,
+				1em 2em black,
+				2em 2em #ffcccc,
+				3em 2em #ffcccc,
+				4em 2em #ffcccc,
+				5em 2em #ffcccc,
+				6em 2em #ffcccc,
+				7em 2em black,
+				8em 2em #ffcccc,
+				9em 2em #ffcccc,
+				10em 2em #ffcccc,
+				11em 2em #ffcccc,
+				12em 2em #ffcccc,
+				13em 2em #ffcccc,
+				14em 2em #ffcccc,
+				15em 2em #ffcccc,
+
+				0em 3em #ffcccc,
+				1em 3em black,
+				2em 3em #ffcccc,
+				3em 3em #ffcccc,
+				4em 3em #ffcccc,
+				5em 3em #ffcccc,
+				6em 3em #ffcccc,
+				7em 3em black,
+				8em 3em #ffcccc,
+				9em 3em #ffcccc,
+				10em 3em #ffcccc,
+				11em 3em #ffcccc,
+				12em 3em #ffcccc,
+				13em 3em #ffcccc,
+				14em 3em #ffcccc,
+				15em 3em #ffcccc,
+
+				0em 4em #ffcccc,
+				1em 4em black,
+				2em 4em #ffcccc,
+				3em 4em #ffcccc,
+				4em 4em #ffcccc,
+				5em 4em #ffcccc,
+				6em 4em #ffcccc,
+				7em 4em black,
+				8em 4em #ffcccc,
+				9em 4em #ffcccc,
+				10em 4em #ffcccc,
+				11em 4em #ffcccc,
+				12em 4em #ffcccc,
+				13em 4em #ffcccc,
+				14em 4em #ffcccc,
+				15em 4em #ffcccc,
+
+				0em 5em #ffcccc,
+				1em 5em black,
+				2em 5em #ffcccc,
+				3em 5em #ffcccc,
+				4em 5em #ffcccc,
+				5em 5em #ffcccc,
+				6em 5em #ffcccc,
+				7em 5em black,
+				8em 5em #ffcccc,
+				9em 5em #ffcccc,
+				10em 5em #ffcccc,
+				11em 5em #ffcccc,
+				12em 5em #ffcccc,
+				13em 5em #ffcccc,
+				14em 5em #ffcccc,
+				15em 5em #ffcccc,
+
+				0em 6em #ffcccc,
+				1em 6em black,
+				2em 6em #ffcccc,
+				3em 6em #ffcccc,
+				4em 6em #ffcccc,
+				5em 6em #ffcccc,
+				6em 6em #ffcccc,
+				7em 6em black,
+				8em 6em #ffcccc,
+				9em 6em #ffcccc,
+				10em 6em #ffcccc,
+				11em 6em #ffcccc,
+				12em 6em #ffcccc,
+				13em 6em #ffcccc,
+				14em 6em #ffcccc,
+				15em 6em #ffcccc,
+
+				0em 7em #ffcccc,
+				1em 7em black,
+				2em 7em black,
+				3em 7em black,
+				4em 7em black,
+				5em 7em black,
+				6em 7em black,
+				7em 7em black,
+				8em 7em black,
+				9em 7em black,
+				10em 7em black,
+				11em 7em black,
+				12em 7em black,
+				13em 7em black,
+				14em 7em black,
+				15em 7em #ffcccc,
+
+				0em 8em #ffcccc,
+				1em 8em #ffcccc,
+				2em 8em #ffcccc,
+				3em 8em #ffcccc,
+				4em 8em #ffcccc,
+				5em 8em #ffcccc,
+				6em 8em #ffcccc,
+				7em 8em black,
+				8em 8em #ffcccc,
+				9em 8em #ffcccc,
+				10em 8em #ffcccc,
+				11em 8em #ffcccc,
+				12em 8em #ffcccc,
+				13em 8em #ffcccc,
+				14em 8em black,
+				15em 8em #ffcccc,
+
+				0em 9em #ffcccc,
+				1em 9em #ffcccc,
+				2em 9em #ffcccc,
+				3em 9em #ffcccc,
+				4em 9em #ffcccc,
+				5em 9em #ffcccc,
+				6em 9em #ffcccc,
+				7em 9em black,
+				8em 9em #ffcccc,
+				9em 9em #ffcccc,
+				10em 9em #ffcccc,
+				11em 9em #ffcccc,
+				12em 9em #ffcccc,
+				13em 9em #ffcccc,
+				14em 9em black,
+				15em 9em #ffcccc,
+
+				0em 10em #ffcccc,
+				1em 10em #ffcccc,
+				2em 10em #ffcccc,
+				3em 10em #ffcccc,
+				4em 10em #ffcccc,
+				5em 10em #ffcccc,
+				6em 10em #ffcccc,
+				7em 10em black,
+				8em 10em #ffcccc,
+				9em 10em #ffcccc,
+				10em 10em #ffcccc,
+				11em 10em #ffcccc,
+				12em 10em #ffcccc,
+				13em 10em #ffcccc,
+				14em 10em black,
+				15em 10em #ffcccc,
+
+				0em 11em #ffcccc,
+				1em 11em #ffcccc,
+				2em 11em #ffcccc,
+				3em 11em #ffcccc,
+				4em 11em #ffcccc,
+				5em 11em #ffcccc,
+				6em 11em #ffcccc,
+				7em 11em black,
+				8em 11em #ffcccc,
+				9em 11em #ffcccc,
+				10em 11em #ffcccc,
+				11em 11em #ffcccc,
+				12em 11em #ffcccc,
+				13em 11em #ffcccc,
+				14em 11em black,
+				15em 11em #ffcccc,
+
+				0em 12em #ffcccc,
+				1em 12em #ffcccc,
+				2em 12em #ffcccc,
+				3em 12em #ffcccc,
+				4em 12em #ffcccc,
+				5em 12em #ffcccc,
+				6em 12em #ffcccc,
+				7em 12em black,
+				8em 12em #ffcccc,
+				9em 12em #ffcccc,
+				10em 12em #ffcccc,
+				11em 12em #ffcccc,
+				12em 12em #ffcccc,
+				13em 12em #ffcccc,
+				14em 12em black,
+				15em 12em #ffcccc,
+
+				0em 13em #ffcccc,
+				1em 13em #ffcccc,
+				2em 13em #ffcccc,
+				3em 13em #ffcccc,
+				4em 13em #ffcccc,
+				5em 13em #ffcccc,
+				6em 13em #ffcccc,
+				7em 13em black,
+				8em 13em #ffcccc,
+				9em 13em #ffcccc,
+				10em 13em #ffcccc,
+				11em 13em #ffcccc,
+				12em 13em #ffcccc,
+				13em 13em #ffcccc,
+				14em 13em black,
+				15em 13em #ffcccc,
+
+				0em 14em #ffcccc,
+				1em 14em black,
+				2em 14em black,
+				3em 14em black,
+				4em 14em black,
+				5em 14em black,
+				6em 14em black,
+				7em 14em black,
+				8em 14em #ffcccc,
+				9em 14em #ffcccc,
+				10em 14em #ffcccc,
+				11em 14em #ffcccc,
+				12em 14em #ffcccc,
+				13em 14em #ffcccc,
+				14em 14em black,
+				15em 14em #ffcccc,
+
+				0em 15em #ffcccc,
+				1em 15em #ffcccc,
+				2em 15em #ffcccc,
+				3em 15em #ffcccc,
+				4em 15em #ffcccc,
+				5em 15em #ffcccc,
+				6em 15em #ffcccc,
+				7em 15em #ffcccc,
+				8em 15em #ffcccc,
+				9em 15em #ffcccc,
+				10em 15em #ffcccc,
+				11em 15em #ffcccc,
+				12em 15em #ffcccc,
+				13em 15em #ffcccc,
+				14em 15em #ffcccc,
+				15em 15em #ffcccc;
+
+
+}
